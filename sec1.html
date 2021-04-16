@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        
+        table.ceenter {
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+        
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <table class="ceenter">
+        <tr>
+            <th></th>
+            <th>Savings</th>
+            <th>Month</th>
+            <th>Savings</th>
+            <th>Month</th>
+            <th>Savings</th>
+
+        </tr>
+        <tr>
+            <td>January</td>
+            <td rowspan="2" style="background-color:yellow">$100</td>
+            <td></td>
+            <td rowspan="2" style="background-color:burlywood">$100</td>
+            <td rowspan="9" style="background-color:burlywood">January</td>
+            <td rowspan="2" style="background-color:burlywood">$100</td>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td rowspan="2" style="background-color: rgb(83, 104, 104);">jjjj</td>
+
+        </tr>
+        <tr>
+            <td>January</td>
+            <td rowspan="3" style="background-color:rgb(135, 222, 135)">$100</td>
+            <td rowspan="3" style="background-color:rgb(135, 222, 135)">$100</td>
+            <td rowspan="3" style="background-color:rgb(135, 222, 135)">$100</td>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td rowspan="3" style="background-color: rgb(83, 104, 104);">January</td>
+
+        </tr>
+        <tr>
+            <td>January</td>
+            <td rowspan="3" style="background-color:rgb(39, 190, 201)">$100</td>
+            <td rowspan="3" style="background-color:rgb(39, 190, 201)">$100</td>
+            <td rowspan="3" style="background-color:rgb(39, 190, 201)">January</td>
+        </tr>
+        <tr>
+            <td>January</td>
+
+        </tr>
+        <tr>
+            <td>January</td>
+            <td></td>
+        </tr>
+
+    </table>
+    <div class="center">
+        <button style="background-color:rgb(39, 190, 201)"> <a href="index.html" style="color: rgb(3, 3, 3); font-size: 15px;">back to home page</a></button>
+        <!--
+       <button onclick="document.location='main.html'">home page</button>
+   -->
+    </div>
+</body>
+
+</html>
